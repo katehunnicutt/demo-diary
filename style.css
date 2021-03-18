@@ -1,0 +1,35 @@
+.app {
+  background-color:green;
+  display:flex;
+  align-items:stretch;
+  justify-content: space-around;
+}
+
+.contained {
+  margin: 5px;
+  padding: 5px;
+  font-size: 11px;
+  height: 30px;
+}
+
+.flex1 {
+  background-color:yellowgreen;
+  flex-grow: 0;
+  flex-shrink: 1;
+  height: 3px;
+}
+
+.flex2 {
+  background-color:brown;
+  flex-grow:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.flex3 {
+  background-color:orangered;
+  flex-grow:2;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
