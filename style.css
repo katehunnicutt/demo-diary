@@ -24,11 +24,14 @@ body {
     #e59c08 50%,
     #e54c00 100%
   );
+  display: flex;
 }
 .header__title {
   text-align: center;
   color: lemonchiffon;
   font-size: 3rem;
+  flex-grow: 1;
+  align-self: center;
 }
 
 .swami-sivananda {
@@ -36,6 +39,7 @@ body {
   background-size: 95%;
   width: 9rem;
   height: 9rem;
+  
 }
 
 .swami-vishnudevananda {
@@ -44,4 +48,5 @@ body {
   background-image: url("https://www.yogaenred.com/wp-content/uploads/2017/10/Swami_Vishnu_-Devananda-605x615.jpg");
   height: 9rem;
   width: 9rem;
+  border-radius: 0 0.9rem 0.9rem 0 ;
 }
